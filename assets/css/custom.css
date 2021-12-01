@@ -1,3 +1,11 @@
+
+
+
+/* Top left h1 */
+h1 {
+    font-weight: 100;
+    /* opacity: 50%; */
+}
 .icon.style2 {
     color: #6F91C3;
 }
@@ -5,3 +13,150 @@
 .icon.major:hover {
     border: 2px solid #6F91C3;
 }
+
+a {
+    border: none;
+}
+
+
+/* ======================= scroll-bar =============================== */
+/* position absolute */
+html {
+    overflow-y: overlay;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #afafaf;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* ======================= Menu =============================== */
+#menu {
+    background: #6F91C3;
+}
+
+/* ======================= projects =============================== */
+.two .content {
+    padding: 0;
+}
+.project--nav-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.project--nav-icons > *{
+    margin: 0 1rem;
+}
+
+
+.project--nav-icons .fa-github{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color .3s ease;
+}
+.project--nav-icons .fa-github:hover{
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.chevron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 128, 128, 0);
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    border: 3px solid rgba(128, 128, 128, 0.3);
+    transition: background .3s ease;
+    margin-right: .9rem;
+    
+}
+.view-project--btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.view-project--btn p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+.view-project--btn:hover .chevron    {
+    border: 3px solid rgba(128, 128, 128, 0.288);
+    background: rgba(128, 128, 128, 0.11);
+}
+
+.chevron i {
+    font-size: 0.9rem;
+    transform: translateX(1px);
+}
+
+
+
+
+
+
+
+
+/* ======================= Contant Form =============================== */
+#contact {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    width: 100%;
+    background: rgba(29, 36, 42, 0.9);;
+}
+
+#contact .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+#contact .row > div {
+    margin-bottom: 1rem;
+}
+
+#contact .contact-submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#contact input[type="text"]:focus,
+#contact textarea:focus {
+    box-shadow: 0 0 0 2px #6F91C3;
+
+}
+
+
+
+
+
+/* ======================= Footer =============================== */
+
+#footer {
+    background: #392e43 !important;
+}
+
+
+

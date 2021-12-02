@@ -112,14 +112,14 @@ html {
 
 
 
-/* ======================= Contant Form =============================== */
+/* ======================= Contact Form =============================== */
 #contact {
-    
+    scroll-margin: calc(3em - 2px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
     width: 100%;
     background: rgba(29, 36, 42, 0.9);;
 }
@@ -155,7 +155,7 @@ html {
 /* ======================= Footer =============================== */
 
 #footer {
-    background: #392e43 !important;
+    background: #392e43f2 !important;
 }
 
 

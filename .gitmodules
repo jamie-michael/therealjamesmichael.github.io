@@ -1,3 +1,6 @@
 [submodule "hangman/Hangman"]
 	path = hangman/Hangman
 	url = https://github.com/therealjamesmichael/Hangman
+[submodule "Hangman"]
+	path = Hangman
+	url = https://github.com/therealjamesmichael/Hangman

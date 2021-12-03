@@ -4,3 +4,6 @@
 [submodule "Hangman"]
 	path = Hangman
 	url = https://github.com/therealjamesmichael/Hangman
+[submodule "portion-calculator"]
+	path = portion-calculator
+	url = https://github.com/therealjamesmichael/portion-calculator

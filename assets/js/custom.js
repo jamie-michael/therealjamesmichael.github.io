@@ -12,7 +12,7 @@ const populateCVLinks = () => {
     const arr = [menu, one, footer]; 
     
     for (const i of arr) {
-        i.href = 'https://drive.google.com/file/d/1zC2oECccdC_Kx7mmNLsPoswpTWemvqkE/view?usp=sharing';
+        i.href = 'https://docs.google.com/document/d/1oIiKnTZu_8qQHep2UesHzmUz0fO8Qb52PuXk2M1G48U/edit?usp=sharing';
     }
     
     

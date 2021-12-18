@@ -62,7 +62,7 @@ html {
 }
 
 .tech-list {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 .project--nav {
     width: 100%;
@@ -114,7 +114,7 @@ html {
 }
 
 .chevron:hover .chev-background    {
-    border: 3px solid rgba(128, 128, 128, 0.3);
+    border: 2px solid rgba(128, 128, 128, 0.3);
     background: rgba(128, 128, 128, 0.11);
 }
 

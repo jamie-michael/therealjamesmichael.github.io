@@ -1,6 +1,5 @@
-const contactForm = document.querySelector('#contact');
-const emailOne = document.querySelector('.email-one');
 const emailMenu = document.querySelector('.email-menu');
+const contactForm = document.querySelector('#contact');
 
 
 
@@ -26,9 +25,6 @@ const populateCVLinks = () => {
 populateCVLinks();
 
 
-
-
-
 // scroll to contact form from menu
 emailMenu.addEventListener('click', () => {
     const cancelSidebarBtn = document.querySelector('.close');
@@ -41,14 +37,3 @@ emailMenu.addEventListener('click', () => {
     
     
 });
-// scroll to contact box from ONE banner
-emailOne.addEventListener('click', () => {
-    console.log('click');
-    
-    contactForm.scrollIntoView({behavior: 'smooth'});
-});
-
-
-
-
-

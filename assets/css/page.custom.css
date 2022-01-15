@@ -1,0 +1,52 @@
+#main > header {
+    padding: 12em 0 10em 0;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#main > header {
+    padding: 12em 0 0em 0;
+}
+
+#main > header .header-text  {
+    padding-bottom: 7rem;
+
+}
+
+.project--nav {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+
+
+.project--nav > *{
+    margin: 0 1rem;
+}
+
+.view--icon {
+    margin-right: 0.9rem;
+}
+.view-with-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.view-with-icon i {
+    transition: 0.3s color ease;
+    font-size: 2rem;
+}
+
+.view-with-icon:hover i {
+    color: rgba(255, 255, 255, 1);
+
+}
+.view-with-icon p {
+    font-size: 0.8rem;
+    margin: 0;
+}

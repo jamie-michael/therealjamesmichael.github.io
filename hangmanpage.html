@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>James Michael - Hangman</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.custom.css" />
+		<link rel="stylesheet" href="assets/css/page.custom.css" />
+		<style>
+			#main > header {
+				background-image: -moz-linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('../../images/hangmanbgimg.png');
+				background-image: -webkit-linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('../../images/hangmanbgimg.png');
+				background-image: -ms-linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('../../images/hangmanbgimg.png');
+				background-image: linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('../../images/hangmanbgimg.png');
+			}
+		</style>
+		<noscript
+			><link rel="stylesheet" href="assets/css/noscript.css"
+		/></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">james michael</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>
+										<a href="" class="cv-menu cv-link" target="_blank"
+											>CV/Resume</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/therealjamesmichael"
+											class="github-link"
+											target="_blank"
+											>Github</a
+										>
+									</li>
+									<li>
+										<a href="javascript:void(0)" class="email-menu email-link"
+											>Contact me</a
+										>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<article id="main">
+				<header class="grid-column">
+					<div class="header-text">
+						<h2>HANGMAN</h2>
+						<p>
+							A simple, simple hangman game.
+						</p>
+					</div>
+					<div class="project--nav grid">
+						<a
+							href="https://github.com/therealjamesmichael/hangman"
+							class="view-with-icon view-github--btn"
+							target="_blank"
+						>
+							<i class="fab fa-github view--icon"></i>
+							<p>View Github</p>
+						</a>
+						<a
+							href="/hangman/index.html"
+							class="view-with-icon"
+							target="_blank"
+						>
+							<i class="fas fa-chevron-circle-right view--icon"></i>
+							<p>View Project</p>
+						</a>
+					</div>
+				</header>
+
+				<section class="wrapper style5">
+					<div class="inner">
+						<ul class="tech-list">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Vanilla Javascript</li>
+						</ul>
+						<p>
+							This was the first project I created outside of following tutorials on Youtube and Udemy. The first project I had gone off on my own to complete without anyone holding my hand, I was unsure whether or not I would be able to pull it off, but i thoroughly enjoyed it. I remember being at work and thinking through the problems I was encountering while making the game, excited to get home to implement the solutions I had come up with. This was refreshing because up until then I had been doing tutorial after tutorial, which was draining, and it didn’t feel like I was learning anything. This was what I now know as tutorial hell.
+						</p>
+
+
+						<p>
+							I built the core game logic first,  before the UI,  outputting everything to the console. I decided to have two game modes, PVP and PVE. PVE would require learning how to use and process HTTP requests to import a list of words, which at the time was far beyond what I knew how to do. So I focused on the PVP mode first and added PVE mode once the project was complete.  With the UI I decided to keep things simple with a black and white minimalist design. The UI turned out to be the biggest challenge despite its simplicity. Because I didn’t know anything about managing reusable components, modals, or UI systems. I made it all up as I went along. 
+						</p>
+					</div>
+				</section>
+			</article>
+			<article id="contact" class="panel">
+				<div class="inner">
+					<header>
+						<h2>Contact Me</h2>
+					</header>
+					<form
+						action="https://formsubmit.co/info@jamesmichael.uk"
+						target="_blank"
+						method="POST"
+					>
+						<div>
+							<div class="row">
+								<div class="col-6 col-12-medium">
+									<input type="text" name="name" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="text" name="email" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<input type="text" name="subject" placeholder="Subject" />
+								</div>
+								<div class="col-12">
+									<textarea
+										name="message"
+										placeholder="Message"
+										rows="6"
+									></textarea>
+								</div>
+								<div class="col-12 contact-submit">
+									<input type="submit" value="Send Message" />
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</article>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li>
+						<a
+							href="#"
+							class="icon solid fa-file cv-footer cv-link"
+							target="_blank"
+							><span class="label">CV/Resume</span></a
+						>
+					</li>
+					<li>
+						<a
+							href="https://github.com/therealjamesmichael"
+							target="_blank"
+							class="icon brands fa-github github-link"
+							><span class="label">Github</span></a
+						>
+					</li>
+					<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+				</ul>
+				<ul class="copyright">
+					<li>&copy; James Michael</li>
+				</ul>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/custom.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

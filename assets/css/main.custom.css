@@ -1,0 +1,308 @@
+
+
+
+/* Top left h1 */
+h1 {
+    font-weight: 100;
+    /* opacity: 50%; */
+}
+.icon.style2 {
+    color: #6F91C3;
+    transition: 0.3s color ease;
+}
+
+.icon.major:hover {
+    border: 2px solid #6F91C3;
+}
+
+a {
+    border: none;
+}
+
+
+/* ======================= scroll-bar =============================== */
+/* position absolute */
+html {
+    overflow-y: overlay;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #afafaf;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* ======================= Menu =============================== */
+#menu {
+    background: #6F91C3;
+}
+
+/* ======================= projects =============================== */
+.two .content {
+    padding: 0;
+    font-size: .7rem;
+}
+
+
+element.style {
+}
+.spotlight .content {
+    padding: 2em 2em 0.1em 4em;
+}
+
+.write-up {
+    font-size: .7rem;
+}
+
+
+
+.major .icon:hover {
+    color: #99bbee;
+}
+
+
+
+/* ======================= Contact Form =============================== */
+#contact {
+    scroll-margin: calc(3em - 2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    width: 100%;
+    background: rgba(29, 36, 42, 0.9);;
+}
+
+#contact .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+#contact .row > div {
+    margin-bottom: 1rem;
+}
+
+#contact .contact-submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#contact input[type="text"]:focus,
+#contact textarea:focus {
+    box-shadow: 0 0 0 2px #6F91C3;
+
+}
+
+
+
+
+
+/* ======================= Footer =============================== */
+
+#footer {
+    background: #392e43 !important;
+}
+
+
+
+
+
+
+
+/* ======================= FLEX =============================== */
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-column {
+    flex-direction: column;
+  }
+  
+  /* Whole */
+  .one-whole {
+      width: 100%; }
+    
+    /* Halves */
+    .one-half {
+      width: 50%; }
+    
+    /* Thirds */
+    .one-third {
+      width: 33.33333%; }
+    
+    .two-thirds {
+      width: 66.66667%; }
+    
+    /* Quarters */
+    .one-quarter {
+      width: 25%; }
+    
+    .two-quarters {
+      width: 50%; }
+    
+    .three-quarters {
+      width: 75%; }
+    
+    /* Fifths */
+    .one-fifth {
+      width: 20%; }
+    
+    .two-fifths {
+      width: 40%; }
+    
+    .three-fifths {
+      width: 60%; }
+    
+    .four-fifths {
+      width: 80%; }
+    
+    /* Sixths */
+    .one-sixth {
+      width: 16.66667%; }
+    
+    .two-sixths {
+      width: 33.33333%; }
+    
+    .three-sixths {
+      width: 50%; }
+    
+    .four-sixths {
+      width: 66.66667%; }
+    
+    .five-sixths {
+      width: 83.33333%; }
+    
+    /* Eighths */
+    .one-eighth {
+      width: 12.5%; }
+    
+    .two-eighths {
+      width: 25%; }
+    
+    .three-eighths {
+      width: 37.5%; }
+    
+    .four-eighths {
+      width: 50%; }
+    
+    .five-eighths {
+      width: 62.5%; }
+    
+    .six-eighths {
+      width: 75%; }
+    
+    .seven-eighths {
+      width: 87.5%; }
+    
+    /* Tenths */
+    .one-tenth {
+      width: 10%; }
+    
+    .two-tenths {
+      width: 20%; }
+    
+    .three-tenths {
+      width: 30%; }
+    
+    .four-tenths {
+      width: 40%; }
+    
+    .five-tenths {
+      width: 50%; }
+    
+    .six-tenths {
+      width: 60%; }
+    
+    .seven-tenths {
+      width: 70%; }
+    
+    .eight-tenths {
+      width: 80%; }
+    
+    .nine-tenths {
+      width: 90%; }
+    
+    /* Twelfths */
+    .one-twelfth {
+      width: 8.33333%; }
+    
+    .two-twelfths {
+      width: 16.66667%; }
+    
+    .three-twelfths {
+      width: 25%; }
+    
+    .four-twelfths {
+      width: 33.33333%; }
+    
+    .five-twelfths {
+      width: 41.66667%; }
+    
+    .six-twelfths {
+      width: 50%; }
+    
+    .seven-twelfths {
+      width: 58.33333%; }
+    
+    .eight-twelfths {
+      width: 66.66667%; }
+    
+    .nine-twelfths {
+      width: 75%; }
+    
+    .ten-twelfths {
+      width: 83.33333%; }
+    
+    .eleven-twelfths {
+      width: 91.66667%; }
+    
+    .show {
+      display: block !important; }
+    
+    .hide {
+      display: none !important; }
+  
+  
+    
+    .content-left { justify-content: flex-start !important;}
+    .content-center { justify-content: center !important;}
+    .content-right { justify-content: flex-end !important;}
+    
+    .align-top { align-items: flex-start !important;}
+    .align-center { align-items: center !important;}
+    .align-bottom { align-items: flex-end !important;}
+  
+    .text-left {
+      text-align: left !important; }
+    
+    .text-right {
+      text-align: right !important; }
+    
+    .text-center {
+      text-align: center !important; }
+
+
+

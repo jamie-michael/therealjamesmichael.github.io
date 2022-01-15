@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/main.custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -28,9 +28,9 @@
 									<div id="menu">
 										<ul>
 											<!-- <li><a href="index.html">Home</a></li> -->
-											<li><a href="" class="cv-menu" target="_blank">CV/Resume</a></li>
-											<li><a href="https://github.com/therealjamesmichael" target="_blank">Github</a></li>
-											<li><a href="javascript:void(0)" class="email-menu" >Contact me</a></li>
+											<li><a href="" class="cv-menu cv-link" target="_blank">CV/Resume</a></li>
+											<li><a href="https://github.com/therealjamesmichael" class="github-link" target="_blank">Github</a></li>
+											<li><a href="javascript:void(0)" class="email-menu email-link" >Contact me</a></li>
 										</ul>
 									</div>
 								</li>
@@ -55,9 +55,9 @@
 								<p>Currently based just outside of York, UK. I am pursing a career in web develeopment. Please take a look at my work below and feel free to get in touch.</p>
 							</header>
 							<ul class="icons major">
-								<li><a href="" class="icon cv-one" target="_blank"><span class="icon solid fa-file major style2"><span class="label">CV/Resume</span></span></a></li>
-								<li><a href="https://github.com/therealjamesmichael" target="_blank" class="icon"><span class="icon brands fa-github major style2"><span class="label">Github</span></span></a></li>
-								<li><a href="javascript:void(0)" class="icon email-one"><span class="icon solid fa-envelope major style2"><span class="label">Email</span></span></a></li>
+								<li><a href="" class="icon cv-one cv-link" target="_blank"><span class="icon solid fa-file major style2"><span class="label">CV/Resume</span></span></a></li>
+								<li><a href="https://github.com/therealjamesmichael" target="_blank" class="icon github-link"><span class="icon brands fa-github major style2"><span class="label">Github</span></span></a></li>
+								<li><a href="javascript:void(0)" class="icon email-one email-link"><span class="icon solid fa-envelope major style2"><span class="label">Email</span></span></a></li>
 							</ul>
 						</div>
 					</section>
@@ -68,23 +68,9 @@
 							<div class="image"><img src="images/portion-calc--thumb.png" alt="" /></div>
 							<div class="content">
 								<h2>Portion Calculator</h2>
-								<p class="write-up">A tool for calculating the cost of a recipe or portion. My biggest challenge here was rebuilding the entire project which I had previously started but shelved. I’d learned a lot about best practices and also my personal preferences since then so going back trying to understand my old code was tricky at first but after a day or so it began to make sense. I learned a lot. Trying to design a UI that looked smart and fit for purpose while also allowing me to be creative and try out novel features, such as the sidebar and hamburger button was also a challenge, I took inspiration from dashboard templates online to create something that worked.
+								<p class="write-up">A tool for calculating the cost of a recipe or portion. Because you cannot buy the exact quantity of ingredients needed for your favorite recipe it can be difficult to know exactly how much a recipe costs you and even harder to know how much a portion would cost. Using this tool you can begin adding ingredients by entering how much you paid for them, how much you bought, and how much you plan to use, to calculate the cost of your recipe. If needed you can then choose the size of your portion.
 								</p>
-								<ul class="tech-list">
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Vanilla Javascript</li>
-								</ul>
-								<div class="project--nav">
-									<a href="https://github.com/therealjamesmichael/Portion-calculator" class="view-with-icon view-github--btn"target="_blank">
-										<i class="fab fa-github view--icon"></i>
-										<p>View Github</p>
-									</a>
-									<a href="/portion-calculator/index.html" class="view-with-icon chevron" target="_blank">
-										<span class="chev-background view--icon"><i class="fas fa-chevron-right"></i></span>
-										<p>View Project</p>
-									</a>
-								</div>
+								<a href="./Portioncalcpage.html" class="button">View</a>
 							</div>
 						</section>
 						<section class="spotlight">
@@ -93,22 +79,7 @@
 								<p class="write-up">After realizing that I was getting stuck in tutorial hell I decided to make this simple game. The design was intentionally simplistic and minimal. My biggest challenge was managing UI components and the UI system. This was overcome by trial and error, and lots of time. I learnt a lot from this project and could have gone back to re-coded parts based on what I had learnt along the way. I instead decided to take what I had learnt and applied to my next project.
 									
 								</p>
-								<ul class="tech-list">
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Vanilla Javascript</li>
-									<li>Ajax</li>
-								</ul>
-								<div class="project--nav">
-									<a href="https://github.com/therealjamesmichael/Hangman" class="view-with-icon view-github--btn"target="_blank">
-										<i class="fab fa-github view--icon"></i>
-										<p>View Github</p>
-									</a>
-									<a href="/Hangman/index.html" class="view-with-icon chevron" target="_blank">
-										<span class="chev-background view--icon"><i class="fas fa-chevron-right"></i></span>
-										<p>View Project</p>
-									</a>
-								</div>
+								<a href="./hangmanpage.html" class="button">View</a>
 							</div>
 						</section>
 					</section>
@@ -194,8 +165,8 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon solid fa-file cv-footer" target="_blank"><span class="label">CV/Resume</span></a></li>
-							<li><a href="https://github.com/therealjamesmichael" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon solid fa-file cv-footer cv-link" target="_blank"><span class="label">CV/Resume</span></a></li>
+							<li><a href="https://github.com/therealjamesmichael" target="_blank" class="icon brands fa-github github-link"><span class="label">Github</span></a></li>
 							<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
 						</ul>
 						<ul class="copyright">

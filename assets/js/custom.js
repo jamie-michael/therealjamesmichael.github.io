@@ -1,54 +1,33 @@
-const contactForm = document.querySelector('#contact');
-const emailOne = document.querySelector('.email-one');
-const emailMenu = document.querySelector('.email-menu');
-
-
-
 const populateCVLinks = () => {
-    const menu = document.querySelector('.cv-menu');
-    const one = document.querySelector('.cv-one');
-    const footer = document.querySelector('.cv-footer');
+	const all = document.getElementsByTagName('a');
+	const contactForm = document.querySelector('#contact');
 
-    const arr = [menu, one, footer]; 
-    
-    for (const i of arr) {
-        if (i === true) {
-            i.href = 'https://drive.google.com/file/d/1a7jjoGlXV6kz1vg9djFi49S8d7zdIP28/view?usp=sharing';
-
-        }
-    }
-    
-    
-}
-
+	for (const e of all) {
+		// CV links
+		if (e.classList.contains('cv-link')) {
+			e.href =
+				'https://drive.google.com/file/d/1a7jjoGlXV6kz1vg9djFi49S8d7zdIP28/view?usp=sharing';
+		}
+		// github links
+		if (e.classList.contains('github-link')) {
+			e.href = 'https://github.com/therealjamesmichael';
+		}
+		if (e.classList.contains('email-link')) {
+			e.addEventListener('click', () => {
+				if (e.classList.contains('email-menu')) {
+					// different script for email link that is in the menu
+					const cancelSidebarBtn = document.querySelector('.close');
+					cancelSidebarBtn.click();
+					setTimeout(() => {
+						contactForm.scrollIntoView({ behavior: 'smooth' });
+					}, 500);
+				} else {
+					e.scrollIntoView({ behavior: 'smooth' });
+				}
+			});
+		}
+	}
+};
 
 
 populateCVLinks();
-
-
-
-
-
-// scroll to contact form from menu
-emailMenu.addEventListener('click', () => {
-    const cancelSidebarBtn = document.querySelector('.close');
-    
-    // close menu
-    cancelSidebarBtn.click();
-    setTimeout( () => {
-        contactForm.scrollIntoView({behavior: 'smooth'})
-    },500);
-    
-    
-});
-// scroll to contact box from ONE banner
-emailOne.addEventListener('click', () => {
-    console.log('click');
-    
-    contactForm.scrollIntoView({behavior: 'smooth'});
-});
-
-
-
-
-

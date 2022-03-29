@@ -62,7 +62,13 @@ element.style {
 }
 .spotlight .content {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .write-up {
     font-size: .7rem;

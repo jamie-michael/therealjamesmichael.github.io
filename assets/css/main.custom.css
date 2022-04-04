@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #003049 ;
 }
 
 /* Top left h1 */
@@ -8,7 +8,7 @@ h1 {
   /* opacity: 50%; */
 }
 .icon.style2 {
-  color: #6f91c3;
+  color: #ffffff;
   transition: 0.3s color ease;
 }
 
@@ -46,6 +46,11 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+#page-wrapper {
+  position: absolute;
+}
+
 /* ======================= Menu =============================== */
 #menu {
   background: #6f91c3;
@@ -55,28 +60,23 @@ html {
 
 #banner {
   height: calc(100vh + 2.5vw);
-}
-body.landing #page-wrapper {
-  background: #db4343;
-  background: -moz-linear-gradient(-45deg, #db4343 0%, 100%);
-  background: -webkit-linear-gradient(-45deg, #db4343 0%, 100%);
-  background: linear-gradient(135deg, #db4343 0%, 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db4343', endColorstr='',GradientType=1 );
+  overflow: visible;
 }
 
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-  background: #db4343;
+  /* background: #db4343; */
+  background: transparent;
 }
 
 #one {
-  clip-path: polygon(0 2.5vw, 100% 0, 100% 100%, 0 100%);
-    margin-top: -2.5vw;
+  /* clip-path: polygon(0 0, 100% 2.5vw, 100% 100%, 0 100%); */
+  clip-path: ellipse(114% 100% at 50% 100%);
+  backdrop-filter: blur(7px);
+    /* margin-top: -2.5vw; */
 }
 #banner .inner {
-  position: absolute;
-  width: 100%;
-  top: 35%;
+  margin-top: 10em;
 }
 
 /* overlay */
@@ -126,10 +126,15 @@ body.is-mobile.landing .wrapper.style4 {
 }
 
 /* ======================= projects =============================== */
+
+
+/* ======================= projects =============================== */
+
 .two .content {
   padding: 0;
   font-size: 0.7rem;
 }
+
 
 .spotlight .content {
   padding: 2rem;
@@ -154,9 +159,17 @@ body.is-mobile.landing .wrapper.style4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #3a3a3a;
   padding: 4rem 2rem;
   width: 100%;
-  background: rgba(29, 36, 42, 0.9);
+  background: #dbe1e4;
+  box-shadow: 0px 2px 10px 0px rgba(122,122,122,0.71) inset;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(122,122,122,0.71) inset;
+  -moz-box-shadow: 0px 2px 10px 0px rgba(122,122,122,0.71) inset;
+}
+
+.contact-section h2 {
+  color: #507082;
 }
 
 #contact .inner {
@@ -182,12 +195,41 @@ body.is-mobile.landing .wrapper.style4 {
   box-shadow: 0 0 0 2px #6f91c3;
 }
 
+::-webkit-input-placeholder {
+  color: #507082 !important;
+  opacity: 1.0;
+}
+
+:-moz-placeholder {
+  color: #507082 !important;
+  opacity: 1.0;
+}
+
+::-moz-placeholder {
+  color: #507082 !important;
+  opacity: 1.0;
+}
+
+:-ms-input-placeholder {
+  color: #507082 !important;
+  opacity: 1.0;
+}
+
+
+
 /* ======================= Footer =============================== */
 
 #footer {
-  background: #392e43 !important;
+  background: #013149 !important;
 }
 
+
+
+/* ======================= utilities =============================== */
+.btn--light-blue {
+  box-shadow:  inset 0 0 0 2px #507082 !important;
+  color: #507082 !important;
+}
 /* ======================= FLEX =============================== */
 
 .grid {

@@ -54,6 +54,10 @@ html {
   width: 100%;
 }
 
+.is-menu-visible {
+  opacity: 1;
+}
+
 /* ======================= Menu =============================== */
 #menu {
   background: #849DA7;

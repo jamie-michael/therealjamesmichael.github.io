@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>James Michael - Portion Calculator</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.custom.css" />
+		<link rel="stylesheet" href="assets/css/page.custom.css" />
+
+		<noscript
+			><link rel="stylesheet" href="assets/css/noscript.css"
+		/></noscript>
+
+		<style>
+			#main > header {
+				background-image: -moz-linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('./images/biguglyblur.png');
+				background-image: -webkit-linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('./images/biguglyblur.png');
+				background-image: -m	s-linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('./images/biguglyblur.png');
+				background-image: linear-gradient(
+						top,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url('./images/biguglyblur.png');
+					background-position: top left;
+					background-size: auto;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">james michael</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>
+										<a href="" class="cv-menu cv-link" target="_blank"
+											>CV/Resume</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/therealjamesmichael"
+											class="github-link"
+											target="_blank"
+											>Github</a
+										>
+									</li>
+									<li>
+										<a href="javascript:void(0)" class="email-menu email-link"
+											>Contact me</a
+										>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<article id="main">
+				<header class="grid-column">
+					<div class="header-text">
+						<h2>Coin Tracker</h2>
+						<p>
+							Simple application for tracking your favorite cryptocurrencies
+						</p>
+					</div>
+					<div class="project--nav grid">
+						<a
+							href="https://github.com/therealjamesmichael/Portion-calculator"
+							class="view-with-icon view-github--btn"
+							target="_blank"
+						>
+							<i class="fab fa-github view--icon"></i>
+							<p>View Github</p>
+						</a>
+						<a
+							href="/portion-calculator/index.html"
+							class="view-with-icon"
+							target="_blank"
+						>
+							<i class="fas fa-chevron-circle-right view--icon"></i>
+							<p>View Project</p>
+						</a>
+					</div>
+				</header>
+
+				<section class="wrapper style5">
+					<div class="inner">
+						<hr/>
+						<ul class="tech-list">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Vanilla Javascript</li>
+						</ul>
+						<hr /> 
+
+							<p>
+							After finishing my Hangman game I wanted to build something with utility, something that I would find useful. At the time, I was looking into food prepping and wanted an easy way to calculate the cost and nutritional value of, for example, 567 grams of lasagne out of a 3468-gram batch. My original idea was to build something similar to a calorie tracking or meal prepping app that would also be able to price up the meals. I later decided to drop the calorie counting functionality because I didn’t continue with my meal prepping. This made it much less important, and besides, there are so many calorie-tracking apps out there. There weren’t however many that could calculate the cost of a recipe as I could only find one website that kind of did food cost calculations the way I was envisioning it, and I thought I could do better.
+							</p>
+							<p>
+							My goal was to build something simple, which was another reason for dropping the calorie-tracking functionality, and something other people could use. I intentionally kept color out of my previous project so this time I wanted to create a colorful UI. I wanted to work on my CSS skills, specifically the layout, and I wanted it to look like a dashboard or application instead of a generic website.
+							</p>
+							<hr />
+
+							<h4>Challenges</h4>
+							<p>
+							The time at which this project took place is twofold as I started the project but didn’t finish it because at the time I was moving from project to project trying to learn as many things as I could. I came back to it just under a year later and I found it very difficult and very overwhelming at first because there was so much that I wanted to change and I didn’t understand how the code worked anymore. I found that simply writing a list of tasks that I could work through one by one allowed me to solve the problems quickly. I ended up almost rewriting the entire HTML and CSS code, which involved applying my own mini CSS flex framework, changing class names and selectors, and designing a completely fresh UI. I didn’t remove too much from my JS.app besides refactoring all of my DOM selectors and adding in a couple of new best practices I had learned, I mostly just build on top of it. 
+							</p>
+						
+							<p>
+							I drew inspiration for the UI from Toggl’s time tracking app and various dashboard templates I found online. I wanted something smart yet playful, and something that allowed me to be creative and try out novel features, such as the sidebar and hamburger button, maybe even unconventional ways of doing things, for learning’s sake. One of the biggest challenges I came across was with the side menu. I knew how to make a simple side menu move in and out but I wanted this one to look like the main content was being pulled across to reveal the menu that was lying beneath. Similar to the kind of effect you get with some apps such as Discord on Android. I came up with a few difficult solutions before finding a relatively simple way. There is probably a reason why I don’t think I’ve seen this kind of approach done on a desktop web app before, and it’s because it squishes the content when it opens and is overly complicated from a cost-benefit perspective. However I think it looks cool, I learned some things about “z-index’s” I didn’t know and also some things that don’t work and that I shouldn’t do in the future.
+							</p>
+							
+						
+					</div>
+				</section>
+			</article>
+			<article id="contact" class="panel">
+				<div class="inner">
+					<header>
+						<h2>Contact Me</h2>
+					</header>
+					<form
+						action="https://formsubmit.co/info@jamesmichael.uk"
+						target="_blank"
+						method="POST"
+					>
+						<div>
+							<div class="row">
+								<div class="col-6 col-12-medium">
+									<input type="text" name="name" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="text" name="email" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<input type="text" name="subject" placeholder="Subject" />
+								</div>
+								<div class="col-12">
+									<textarea
+										name="message"
+										placeholder="Message"
+										rows="6"
+									></textarea>
+								</div>
+								<div class="col-12 contact-submit">
+									<input type="submit" value="Send Message" />
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</article>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li>
+						<a
+							href="#"
+							class="icon solid fa-file cv-footer cv-link"
+							target="_blank"
+							><span class="label">CV/Resume</span></a
+						>
+					</li>
+					<li>
+						<a
+							href="https://github.com/therealjamesmichael"
+							target="_blank"
+							class="icon brands fa-github github-link"
+							><span class="label">Github</span></a
+						>
+					</li>
+					<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+				</ul>
+				<ul class="copyright">
+					<li>&copy; James Michael</li>
+				</ul>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/custom.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -49,11 +49,14 @@ html {
 
 #page-wrapper {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* ======================= Menu =============================== */
 #menu {
-  background: #6f91c3;
+  background: #849DA7;
 }
 
 /* ======================= hero background =============================== */
